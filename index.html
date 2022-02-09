@@ -27,7 +27,6 @@
     <title>Portfolio | Ridho Panca Sakti</title>
   </head>
   <body>
-    <!-- start header -->
     <section id="header">
       <nav id="poppin-nav">
         <div class="col-12 d-flex">
@@ -37,9 +36,9 @@
           </div>
         </div>
         <ul id="menu">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="javascript:void(0);" onclick="home();">Home</a></li>
+          <li><a href="javascript:void(0);" onclick="services();">Services</a></li>
+          <li><a href="javascript:void(0);" onclick="contact();">Contact</a></li>
         </ul>
       </nav>
       <div id="menu-overlay"></div>
@@ -64,8 +63,7 @@
         </div>
       </header>
     </section>
-    <!-- end header -->
-    <!-- start content -->
+
     <section id="content">
       <div class="container">
         <div class="row">
@@ -112,6 +110,18 @@
                   >Design</a
                 >
               </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="tab-apps-contents"
+                  data-bs-toggle="tab"
+                  href="#portfolio-apps-contents"
+                  role="tab"
+                  aria-controls="portfolio-design-contents"
+                  aria-selected="false"
+                  >Apps</a
+                >
+              </li>
               <div class="line"></div>
             </ul>
           </div>
@@ -128,31 +138,51 @@
           >
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="mnbsocks();">
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit MNB Socks</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/mnbsocks.png" class="w-100 h-100" alt="MNB Socks">
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="mygas();">
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit MyGas Indonesia</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/mygas.png" class="w-100 h-100" alt="Mygas Indonesia">
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="takayama();">
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit Takayama Official</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/takayamaadmin.png" class="w-100 h-100" alt="Takayama Official indonesia">
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="bek();"> 
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit Bintang Eka Karsa</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/bek.png" class="w-100 h-100" alt="Bintang Eka Karsa">
                   </div>
                 </div>
@@ -160,6 +190,11 @@
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Design E-Commerce</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/olshop.png" class="w-100 h-100" alt="Design E-commerce">
                   </div>
                 </div>
@@ -167,7 +202,36 @@
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Design Chat System</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/chatdark.png" class="w-100 h-100" alt="Design Chat Dark">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
+                  >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>App Android Point Of Sales</h4>
+                      </div>
+                    </div>
+                    <img src="assets/images/apkpos.png" class="w-100 h-100" alt="Point Of Sales">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
+                  >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>App Desktop MNB Socks</h4>
+                      </div>
+                    </div>
+                    <img src="assets/images/mnbdashboard.png" class="w-100 h-100" alt="Desktop MNB Socks">
                   </div>
                 </div>
               </div>
@@ -181,31 +245,51 @@
           >
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="mnbsocks();">
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit MNB Socks</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/mnbsocks.png" class="w-100 h-100" alt="MNB Socks">
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="mygas();">
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit MyGas Indonesia</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/mygas.png" class="w-100 h-100" alt="Mygas Indonesia">
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="takayama();">
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit Takayama Official</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/takayamaadmin.png" class="w-100 h-100" alt="Takayama Official indonesia">
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" onclick="bek();"> 
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Visit Bintang Eka Karsa</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/bek.png" class="w-100 h-100" alt="Bintang Eka Karsa">
                   </div>
                 </div>
@@ -224,6 +308,11 @@
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Design E-Commerce</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/olshop.png" class="w-100 h-100" alt="Design E-commerce">
                   </div>
                 </div>
@@ -231,7 +320,47 @@
                   <div
                     class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
                   >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>Design Chat System</h4>
+                      </div>
+                    </div>
                     <img src="assets/images/chatdark.png" class="w-100 h-100" alt="Design Chat Dark">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane animate__animated animate__zoomInDown"
+            id="portfolio-apps-contents"
+            role="tabpanel"
+            aria-labelledby="portfolio-apps-contents-tab"
+          >
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div
+                    class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
+                  >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>App Android Point Of Sales</h4>
+                      </div>
+                    </div>
+                    <img src="assets/images/apkpos.png" class="w-100 h-100" alt="Point Of Sales">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="portfolio-item align-items-center d-flex justify-content-center overflow-hidden"
+                  >
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <h4>App Desktop MNB Socks</h4>
+                      </div>
+                    </div>
+                    <img src="assets/images/mnbdashboard.png" class="w-100 h-100" alt="Desktop MNB Socks">
                   </div>
                 </div>
               </div>
@@ -240,38 +369,33 @@
         </div>
       </div>
     </section>
-    <!-- end content -->
 
     <section id="services">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center mb-3">
+          <div class="col-12 text-center mt-4 mb-5">
             <h2>What Can I Do?</h2>
           </div>
         </div>
         <div class="row">
           <div id="service-content">
             <div class="col-12 col-md-4 px-2">
-              <div class="service-box">
+              <div class="service-box overflow-auto">
                 <div class="service-icon">
                   <i class="fas fa-paint-brush"></i>
                 </div>
                 <div class="service-title">
                   <label class="h4">Web Design</label>
                 </div>
-                <div class="service-desc">
+                <div class="service-desc ">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Web Design is a term about visual design that is applied to digital media, namely websites. I usually use figma, I'm still a newbie in web design.
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4 px-2">
-              <div class="service-box">
+              <div class="service-box overflow-auto">
                 <div class="service-icon">
                   <i class="fas fa-code"></i>
                 </div>
@@ -280,17 +404,13 @@
                 </div>
                 <div class="service-desc">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Web development is the process of building and maintaining a website. I'm a full stack developer. some skills I can do are HTML & CSS, Javascript, Jquery, Ajax, ReactJs, Codeigniter 3, Node (Express Js).
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4 px-2">
-              <div class="service-box">
+              <div class="service-box overflow-auto">
                 <div class="service-icon">
                   <i class="fas fa-desktop"></i>
                   <i class="fas fa-mobile-alt"></i>
@@ -299,38 +419,30 @@
                 <div class="service-title">
                   <label class="h4">Responsive Design</label>
                 </div>
-                <div class="service-desc">
+                <div class="service-desc overflow-auto">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Responsive design is a technique or method for web designers to create a website layout that can adapt to the user's screen size. I am used to using Bootstrap or Tailwind CSS, very helpful.
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4 px-2">
-              <div class="service-box">
+              <div class="service-box overflow-auto">
                 <div class="service-icon">
                   <i class="fas fa-database"></i>
                 </div>
                 <div class="service-title">
-                  <label class="h4">Databases</label>
+                  <label class="h4">Database</label>
                 </div>
                 <div class="service-desc">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Database is a collection of data that is managed based on certain interrelated provisions making it easier to manage. databases that I can use include Microsoft SQL Server and Mysql.
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4 px-2">
-              <div class="service-box">
+              <div class="service-box overflow-auto">
                 <div class="service-icon">
                   <i class="fas fa-mobile-alt"></i>
                 </div>
@@ -339,11 +451,7 @@
                 </div>
                 <div class="service-desc">
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Mobile application development is a term used to describe the process of developing applications that operate on mobile devices. I usually use React native or Cordova.
                   </p>
                 </div>
               </div>
@@ -353,29 +461,78 @@
       </div>
     </section>
 
-    <section id="footer">
+    <section id="contact">
       <div class="container">
         <div class="row">
+          <div class="col-12 text-center mt-4 mb-2">
+            <h2>Get In Touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div id="contact-content" class="d-flex flex-column justify-content-center align-items-center">
+            <div class="text-center">
+              Whether you just want to ask a question or get in touch, feel free to email or call, I'll be right back in touch.You can see my cv <a href="javascript:void(0);" class="text-underline" onclick="cv();"><u>here.</u></a> 
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+             <i class="fab fa-envelope fa-2x"></i>
+             <span class="mx-2">Email: pancasakti08@gmail.com</span> 
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+             <i class="fab fa-whatsapp fa-1x"></i>
+             <span class="mx-2">Phone: +62 896-3606-7771</span> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="d-none d-md-block row">
           <div class="col-12 col-md-6" id="footer1">
             <ul class="social-icons">
               <li>
-                <a class="facebok" href="#" target="_blank"
+                <a class="facebok" href="javascript:void(0)" onclick="facebook();"
                   ><i class="fab fa-facebook"></i
                 ></a>
               </li>
               <li>
-                <a class="twitter" href="#" target="_blank"
-                  ><i class="fab fa-twitter"></i
-                ></a>
+                <a class="twitter" href="javascript:void(0)" onclick="linkedin();" 
+                  ><i class="fab fa-linkedin-in"></i></a>
               </li>
               <li>
-                <a class="instagram" href="#" target="_blank"
+                <a class="instagram" href="javascript:void(0)" onclick="instagram();" 
                   ><i class="fab fa-instagram"></i
                 ></a>
               </li>
             </ul>
           </div>
           <div class="col-12 col-md-6" id="footer2">
+            <span>&copy; 2022 Ridho Panca Sakti. All Rights Reserved</span>
+          </div>
+        </div>
+        <div class="d-block d-md-none">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-6 mt-3" id="footer3">
+              <ul class="social-icons">
+                <li>
+                  <a class="facebok" href="javascript:void(0)" onclick="facebook();"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="twitter" href="javascript:void(0)" onclick="linkedin();" 
+                    ><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="javascript:void(0)" onclick="instagram();" 
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 my-4" id="footer4">
             <span>&copy; 2022 Ridho Panca Sakti. All Rights Reserved</span>
           </div>
         </div>
