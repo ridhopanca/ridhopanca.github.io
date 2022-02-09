@@ -113,7 +113,7 @@ function bek() {
 	window.open("https://bintangekakarsa.com/")
 }
 function cv() {
-	window.open("https://drive.google.com/file/d/1rsG8MPk8XldrqpiviHGzmYMEVGyGy-XT/view?usp=sharing")
+	window.open("https://drive.google.com/file/d/13nBVl0G_YfL47Fpvhih0Ee10JkCOPahd/view?usp=sharing")
 }
 
 function services() {
