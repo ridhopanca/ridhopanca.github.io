@@ -1,6 +1,7 @@
 $(document).ready(function(){
     menuItem();
 });
+
 function menuItem(){
 	$('#menu li:has(ul)').children('ul').hide();
 	$('#menu li:has(ul)').find('a').on('click', function() {
@@ -112,8 +113,21 @@ function takayama() {
 function bek() {
 	window.open("https://bintangekakarsa.com/")
 }
+
 function cv() {
 	window.open("https://drive.google.com/file/d/13nBVl0G_YfL47Fpvhih0Ee10JkCOPahd/view?usp=sharing")
+}
+
+function apkpos() {
+	window.open("https://drive.google.com/file/d/1yuASs7kALCckJMgLChvQcnHgIwSLiA_t/view")
+}
+
+function mnbwindows() {
+	window.open("https://drive.google.com/file/d/1zJRcQWDm1QJYZYeuphAp3Em-JisPPr32/view?usp=sharing")
+}
+
+function mnblinux() {
+	window.open("https://drive.google.com/file/d/1mSYJdNzt1mfC01qyYuIZKnx6BpIfLIXm/view?usp=sharing")
 }
 
 function services() {
@@ -136,4 +150,36 @@ function contact() {
 	$([document.documentElement, document.body]).animate({
         scrollTop: $("#contact").offset().top
     }, 2000);
+}
+
+function modalPosShow() {
+	$('#modalApkPos').modal("show");
+}
+
+function modalPosHide() {
+	$('#modalApkPos').modal("hide");
+}
+
+function modalDesktopShow() {
+	$('#modalAppDesktopMnb').modal("show");
+}
+
+function modalDesktopHide() {
+	$('#modalAppDesktopMnb').modal("hide");
+}
+
+function modalChatShow() {
+	$('#modalDesignChat').modal("show");
+}
+
+function modalChatHide() {
+	$('#modalDesignChat').modal("hide");
+}
+
+function modalEcommerceShow() {
+	$('#modalEcommerce').modal("show");
+}
+
+function modalEcommerceHide() {
+	$('#modalEcommerce').modal("hide");
 }
