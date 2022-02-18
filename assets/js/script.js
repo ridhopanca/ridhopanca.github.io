@@ -1,5 +1,24 @@
 $(document).ready(function(){
     menuItem();
+    var swiper = new Swiper(".blog-slider", {
+	  spaceBetween: 30,
+	  effect: 'fade',
+	  loop: true,
+	  mousewheel: {
+	    invert: false,
+	  },
+	  navigation: {
+	    nextEl: ".swiper-button-next",
+	    prevEl: ".swiper-button-prev",
+	  },
+	  pagination: {
+	    el: ".blog-slider__pagination",
+	    clickable: true,
+	  },
+	  // mousewheel: true,
+	  keyboard: true,
+	});
+
 });
 
 function menuItem(){
@@ -98,6 +117,10 @@ function linkedin() {
   	window.open("https://www.linkedin.com/in/ridho-panca-sakti-351b83229")
 }
 
+function whatsapp() {
+	window.open("https://wa.me/+6289636067771");
+}
+
 function mnbsocks() {
 	window.open("https://mnb-socks.herokuapp.com/")
 }
@@ -150,36 +173,4 @@ function contact() {
 	$([document.documentElement, document.body]).animate({
         scrollTop: $("#contact").offset().top
     }, 2000);
-}
-
-function modalPosShow() {
-	$('#modalApkPos').modal("show");
-}
-
-function modalPosHide() {
-	$('#modalApkPos').modal("hide");
-}
-
-function modalDesktopShow() {
-	$('#modalAppDesktopMnb').modal("show");
-}
-
-function modalDesktopHide() {
-	$('#modalAppDesktopMnb').modal("hide");
-}
-
-function modalChatShow() {
-	$('#modalDesignChat').modal("show");
-}
-
-function modalChatHide() {
-	$('#modalDesignChat').modal("hide");
-}
-
-function modalEcommerceShow() {
-	$('#modalEcommerce').modal("show");
-}
-
-function modalEcommerceHide() {
-	$('#modalEcommerce').modal("hide");
 }
