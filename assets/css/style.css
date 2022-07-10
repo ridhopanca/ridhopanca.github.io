@@ -915,7 +915,6 @@ a:hover {
     margin-bottom: 8rem;
   }
 }
-
 @media screen and (max-height: 500px) and (min-width: 992px) {
   .blog-slider__img {
     height: 270px;
@@ -1133,6 +1132,18 @@ a:hover {
   box-shadow: 0 10px 20px rgb(0 0 0 / 25%);
   overflow: hidden;
   height: 450px;
+}
+
+@media only screen and (max-width:900px){
+    .porto-box {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .porto-box {
+        height: auto;
+    }
 }
 
 .card-header{
